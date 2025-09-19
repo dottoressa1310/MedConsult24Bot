@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "medconsult24bot"
+version = "0.1.0"
+description = "Telegram bot for MedConsult24"
+authors = ["Твое имя"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "3.7.0"
+pydantic = "2.8.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
