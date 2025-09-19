@@ -1,3 +1,3 @@
-aiogram==3.7.0
-pydantic==2.7.4
-python-dotenv==1.0.1
+bash -lc 'mkdir -p $CARGO_HOME $RUSTUP_HOME && \
+pip install --upgrade pip && \
+pip install aiogram==3.7.0 pydantic==2.7.4 python-dotenv==1.0.1'
